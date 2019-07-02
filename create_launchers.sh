@@ -43,7 +43,9 @@ main(){
 	preprocessor_exec_command="java -jar $APPDIR/jars/SparkPreprocessor.jar"
 	preprocessor_run_in_terminal=false
 	create_launcher "$APPDIR" "$preprocessor_launcher_file" "$preprocessor_icon_file" "$preprocessor_launcher_name" "$preprocessor_exec_command" $preprocessor_run_in_terminal
+	
 	######################################################################
+	
 	classifier_launcher_file=$APPDIR/RunSparkBinaryClassifier.desktop
 	classifier_icon_file=$APPDIR/.binary_classifier_app_logo.png
 	classifier_launcher_name="Run Spark Binary Classifier"
