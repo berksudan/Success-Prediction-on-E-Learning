@@ -5,5 +5,5 @@ Program includes both web log processor and binary classifier. Classification al
 
 If you want to make user-friendly launchers for the program, run the following command within this folder:
 ```
-bash create_launcher.sh
+bash create_launchers.sh
 ```
