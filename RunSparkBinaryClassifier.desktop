@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=bash -c "java -jar /home/kubrick/eclipse-workspace/GraduationProject/jars/SparkClassifier.jar; read line"
+Name[en_US]=Run Spark Binary Classifier
+Comment[en_US]=Run Spark Binary Classifier
+Icon[en_US]=/home/kubrick/eclipse-workspace/GraduationProject/.binary_classifier_app_logo.png
+Name=Run Spark Binary Classifier
+Comment=Run Spark Binary Classifier
+Icon=/home/kubrick/eclipse-workspace/GraduationProject/.binary_classifier_app_logo.png
+Path=/home/kubrick/eclipse-workspace/GraduationProject
+	
