@@ -1,2 +1,4 @@
 RunSparkBinaryClassifier.desktop
 RunSparkWebLogPreprocessor.desktop
+.classpath
+.project
