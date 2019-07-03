@@ -49,7 +49,7 @@ main(){
 	classifier_launcher_file=$APPDIR/RunSparkBinaryClassifier.desktop
 	classifier_icon_file=$APPDIR/.binary_classifier_app_logo.png
 	classifier_launcher_name="Run Spark Binary Classifier"
-	classifier_exec_command="bash -c \"java -jar /home/kubrick/eclipse-workspace/GraduationProject/jars/SparkClassifier.jar; read line\""
+	classifier_exec_command="bash -c \"java -jar $APPDIR/jars/SparkClassifier.jar; read line\""
 	classifier_run_in_terminal=true
 	create_launcher "$APPDIR" "$classifier_launcher_file" "$classifier_icon_file" "$classifier_launcher_name" "$classifier_exec_command" $classifier_run_in_terminal
 }
