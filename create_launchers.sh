@@ -27,7 +27,7 @@ Path=$app_dir
 
 	chmod +x $launcher_file
 	echo "-------------------------------------------"
-	echo "INFOS ABOUT CREATED FILES:"
+	echo "INFO ABOUT CREATED FILE:"
 	echo "-> Icon File: \"$icon_file\""
 	echo "-> Exec Command of Launcher: \"$exec_command\""
 	echo "-> Launcher Name: \"$launcher_name\""
