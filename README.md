@@ -1,4 +1,4 @@
-# Success Prediction on E Learning
+# Success Prediction on E-Learning
 Program includes both web log processor and binary classifier. Classification algorithms such as Logistic Regression and K-NN (K Nearest Neighbours) are implemented in Apache Spark Environment.
 
 ## Create Launcher Of Program
